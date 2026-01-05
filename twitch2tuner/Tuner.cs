@@ -35,7 +35,7 @@ namespace twitch2tuner
                 FirmwareName = "hdhomeruntc_atsc",
                 FirmwareVersion = "20150826",
                 TunerCount = 1,
-                DeviceID = "12345678",
+                DeviceID = "87654321",
                 DeviceAuth = "password",
                 BaseURL = publicAddress,
                 LineupURL = $"{publicAddress}/lineup.json"
@@ -211,3 +211,4 @@ namespace twitch2tuner
         private static readonly Dictionary<string, string> StreamUrlMap = new Dictionary<string, string>();
     }
 }
+
